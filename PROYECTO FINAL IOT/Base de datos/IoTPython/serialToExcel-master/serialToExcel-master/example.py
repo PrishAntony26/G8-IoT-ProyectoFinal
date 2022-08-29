@@ -5,7 +5,7 @@ serialToExcel = SerialToExcel("COM3",115200)
 #columnas = ["Nro Lectura","Valor"]
 
 serialToExcel.setColumns(["Nro Lectura","Humedad","Temperatura","Humedad Suelo"])
-serialToExcel.setRecordsNumber(20)
+serialToExcel.setRecordsNumber(30)
 serialToExcel.readPort()
 
-serialToExcel.writeFile("archivo2.xls")
+serialToExcel.writeFile("archivoPrueba.xls")
